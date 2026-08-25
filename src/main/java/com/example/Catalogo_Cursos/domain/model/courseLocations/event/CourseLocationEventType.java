@@ -1,0 +1,17 @@
+package com.example.Catalogo_Cursos.domain.model.courseLocations.event;
+
+public enum CourseLocationEventType {
+
+  COURSE_LOCATION_CREATED,
+
+  COURSE_LOCATION_NAME_CHANGED,
+
+  COURSE_LOCATION_ADDRESS_CHANGED,
+
+  COURSE_LOCATION_CITY_CHANGED,
+
+  COURSE_LOCATION_REFERENCE_CHANGED,
+
+  COURSE_LOCATION_CAPACITY_CHANGED
+
+}
